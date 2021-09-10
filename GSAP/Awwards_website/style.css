@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    font-weight: 500;
+}
+#back{
+    width: 100%;
+    min-height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 120px;
+    width: 65%;
+    height: 150px;
+   
+}
+nav img{
+    width: 50%;
+}
+nav .links a{
+    color: rgb(88, 165, 228);
+    font-weight: 15px;
+}
+nav .links a:nth-child(2){
+    margin-left: 40px;
+}
+h1{
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Playfair Display', serif;
+    line-height: 65px;
+    margin-top: 120px;
+    font-weight: 100;
+}
+#main{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 120px;
+}
+#main .imgcntnr{
+    width: 250px;
+    height: 200px;
+}
+#main #one,#main #sx{
+    width: 180px;
+    height: 480px;
+}
+#main #one{
+    position: absolute;
+    top: 52%;
+    left: 0;
+    transform: translate(0,-50%);
+}
+#main #sx{
+    position: absolute;
+    top: 52%;
+    right: 0;
+    transform: translate(0,-50%);
+}
+#main #holdr1{
+    position: absolute;
+    top: 50%;
+    left: 200px;
+    transform: translate(0,-50%);
+}
+#main .holdr div{
+    margin-top: 20px;
+}
+#main #holdr2{
+    position: absolute;
+    top: 50%;
+    right: 200px;
+    transform: translate(0,-50%);
+}
+#videoplyr{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    width: 500px;
+    min-height: 100vh;
+}
+#videoplyr video{
+    height: 100%;
+    position: absolute;
+}
+#main .imgcntnr{
+    background-size: cover;
+    background-position: center;
+}
+#main #one{
+    background-image: url(./assets/img1.jpg);
+}
+#main #two{
+    background-image: url(./assets/img2.jpg);
+}
+#main #three{
+    background-image: url(./assets/img3.jpg);
+}
+#main #fr{
+    background-image: url(./assets/img4.jpg);
+}
+#main #fv{
+    background-image: url(./assets/img5.jpg);
+}
+#main #sx{
+    background-image: url(./assets/img1.jpg);
+}
+
