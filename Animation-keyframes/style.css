@@ -125,4 +125,5 @@
 }
 .count-3{
   animation-iteration-count: 3;
+  animation-delay: 3s;
 }
