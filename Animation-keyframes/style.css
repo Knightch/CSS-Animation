@@ -121,5 +121,8 @@
 
     animation-name: boxAnimation;
     animation-duration: 15s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards;  
+}
+.count-3{
+  animation-iteration-count: 3;
 }
