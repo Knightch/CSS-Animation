@@ -117,7 +117,6 @@
       border-radius: 50px;
       background-color: whitesmoke;
       color:black;
-      transition: all ease-in-out;
 
     animation-name: boxAnimation;
     animation-duration: 15s;
@@ -127,4 +126,5 @@
   animation-iteration-count: 2;
   animation-delay: 3s;
   animation-direction: alternate-reverse;
+  animation-timing-function: ease-in-out;
 }
